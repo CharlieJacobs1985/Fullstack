@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Cheatsheet</title>
+        <link href="./Resources/index.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <Header>
+            <h1>My Cheatsheet</h1>
+            <nav>
+                <ul>
+                    <div class="html"><li>HTML</li>
+                        <ul>
+                            <li><a href="#summary">Document Summary</a></li>
+                            <li><a href="#structure">Document Structure</a>
+                            <ul>
+                                <li><a href="#semantic">Semantic</a></li>
+                                <li><a href="#non-semantic">Non-Semantic</a></li>
+                            </ul>
+                            </li>
+                        <li><a href="#links">Links and Images</a></li>
+                        <li><a href="#lists">Lists</a></li>
+                        <li><a href="#tables">Tables</a></li>
+                        </ul></div>
+                    <div class="css"><li>CSS</li>
+                        <ul>
+                            <li><a href="#selectors">Selectors</a> 
+                            <ul>
+                                <li><a href="#typeclassid">Type, class and ID selectors</a></li>
+                                <li><a href="#attributeselectors">Attribute selectors</a></li>
+                                <li><a href="#pseudoclasses">Pseudo-classes and elements</a></li>
+                                <li><a href="#combinators">Combinators</a></li>
+                            </ul>
+                            </li>
+                            <li><a href="#styling">Styling</a> 
+                                <ul>
+                                    <li><a href="#text">Text</a></li>
+                                    <li><a href="#background">Background</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#layout">Layout</a></li>
+                        </ul></div>
+                </ul>
+            </nav>
+        </Header>
+
+        <h2>HTML</h2>
+            <h3 id="summary">Document Summary</h3>
+                <table>
+                    <thead>
+                        <tr class="tabletitle">
+                            <th>Tag</th>
+                            <th>Content</th>
+                            <th>Attribute(optional)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="columns">
+                                <td>Html</td>
+                                <td>Your entire HTML</td>
+                                <td>&lt;html lang="english"&gt; &lt;/html&gt;</td>
+                        </tr>
+                        <tr class="explanation">
+                            <td colspan="3">The HTML tag will be in every html document. Adding the lang attribute makes it 
+                            possible for a search robot, to know wich language the website is in.</td>
+                        </tr>
+                        <tr class="space">
+                            <td colspan="3"></td>
+                        </tr>
+
+
+                        <tr class="columns">
+                            <td>Head</td>
+                            <td>title, reference to stylesheet, ...</td>
+                            <td>None</td>
+                        </tr>
+                        <tr class="explanation">
+                            <td colspan="3">In the head u place things that offer utility to your website but aren't directly visible.
+                                A few examples are link to a stylesheet or the title of the page.
+                            </td>
+                        </tr>
+                        <tr class="space">
+                            <td colspan="3"></td>
+                        </tr>
+
+
+                        <tr class="columns">
+                            <td>Title</td>
+                            <td>Document title</td>
+                            <td>None</td>
+                        </tr>
+                        <tr class="explanation">
+                            <td colspan="3">Place the title you want to see on your tab here</td>
+                        </tr>
+                        <tr class="space">
+                            <td colspan="3"></td>
+                        </tr>
+
+
+                        <tr class="columns">
+                            <td>Body</td>
+                            <td>All visible content</td>
+                            <td>Only styling attributes(use CSS)</td>
+                        </tr>
+                        <tr class="explanation">
+                            <td colspan="3">Everything that is visible on your website is in between the body tags</td>
+                        </tr>
+                        <tr class="space">
+                            <td colspan="3"></td>
+                        </tr>
+
+
+                        
+                    </tbody>
+                </table>
+            <h3 id="structure">Document Structure</h3>
+                <h4 id="semantic">Semantic</h4>
+                    <table>
+                        <thead>
+                            <tr class="tabletitle">
+                                <th>Tag</th>
+                                <th>Content</th>
+                                <th>Attribute(optional)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="columns">
+                                <td>Header</td>
+                                <td>Introductory content</td>
+                                <td>None</td>
+                            </tr>
+                            <tr class="explanation">
+                                <td colspan="3">Here you place a banner, logo or navigation for example</td>
+                            </tr>
+                            <tr class="space">
+                                <td colspan="3"></td>
+                            </tr>
+                            
+                            
+                            
+                            <tr class="columns">
+                                <td>Nav</td>
+                                <td>navigational links</td>
+                                <td>None</td>
+                            </tr>
+                            <tr class="explanation">
+                                <td colspan="3">Often placed in the header or footer, used for navigation on website</td>
+                            </tr>
+                            <tr class="space">
+                                <td colspan="3"></td>
+                            </tr>
+
+
+                            <tr class="columns">
+                                <td>Article</td>
+                                <td>Text</td>
+                                <td>None</td>
+                            </tr>
+                            <tr class="explanation">
+                                <td colspan="3">The tag says it all, used for writing chunks of text(blog entry, forum post, ...)</td>
+                            </tr>
+                            <tr class="space">
+                                <td colspan="3"></td>
+                            </tr>
+
+
+                            <tr class="columns">
+                                <td>Aside</td>
+                                <td>indirectly related content</td>
+                                <td>None</td>
+                            </tr>
+                            <tr class="explanation">
+                                <td colspan="3">Quotes, little fun facts, ...</td>
+                            </tr>
+                            <tr class="space">
+                                <td colspan="3"></td>
+                            </tr>
+
+
+                            <tr class="columns">
+                                <td>Section</td>
+                                <td>Used to divide content in sections</td>
+                                <td>None</td>
+                            </tr>
+                            <tr class="explanation">
+                                <td colspan="3">Devide your webpage in sections with different subjects(website golf devided in apparel and technique)</td>
+                            </tr>
+                            <tr class="space">
+                                <td colspan="3"></td>
+                            </tr>
+                            
+                            
+                            <tr class="columns">
+                                <td>Main</td>
+                                <td>Dominant content</td>
+                                <td>None</td>
+                            </tr>
+                            <tr class="explanation">
+                                <td colspan="3">Here you place the main reason you made your webpage</td>
+                            </tr>
+                            <tr class="space">
+                                <td colspan="3"></td>
+                            </tr>
+
+
+                            <tr class="columns">
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr class="explanation">
+                                <td colspan="3"></td>
+                            </tr>
+                            <tr class="space">
+                                <td colspan="3"></td>
+                            </tr>
+
+
+
+                        </tbody>
+                    </table>
+                <h4 id="non-semantic">Non-semantic</h4>
+            <h3 id="links">Links and Images</h3>
+            <h3 id="lists">Lists</h3>
+            <h3 id="tables">Tables</h3>
+        <h2>CSS</h2>
+            <h3 id="selectors">Selectors</h3>
+                <h4 id="typeclassid">Type, Class and ID selectors</h4>
+                <h4 id="attributeselectors">Attribute Selectors</h4>
+                <h4 id="pseudoclasses">Pseudo-Classes and Elements</h4>
+                <h4 id="combinators">Combinators</h4>
+            <h3 id="styling">styling</h3>
+                <h4 id="text">Text</h4>
+                <h4 id="background">Background</h4>
+            <h3 id="layout">Layout</h3>
+        
+
+
+
+
+
+
+
+
+        <footer></footer>
+    </body>
+</html>
