@@ -1,0 +1,220 @@
+/*Standard set up */
+
+html{
+    font-family: Merriweather;
+    background-color: #3b2079;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+h1{
+    text-align: center;
+    display: block;
+    background-color: #673AB7;
+    height: 10%;
+    margin-top: 0;
+}
+
+body{
+    margin: 0
+}
+
+/* Header */
+
+.title{
+    font-family: 'Permanent Marker';
+    background-color: #FFC107;
+    height: 16vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    position:fixed;
+    z-index: 0.9;
+    
+}
+
+/*Nav*/
+
+header .navbar{
+    display: flex;
+    height: 125px;
+    width:100%;
+    font-family: Merriweather;
+    justify-content:space-evenly;
+    align-items: flex-end;
+    font-size: 14px ;
+    list-style: none;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+}
+
+.navlist{
+    border: #3b2079 solid;
+    background-color:#FFC107;
+    padding: 10px 15px;
+    color: #212121;
+    font-weight: bolder;    
+}
+.navlist:hover{
+    color: #FFFFFF;
+    background-color: #3b2079;
+}
+
+
+
+
+/* Body */
+
+/* General layout */
+
+.layout {
+    height: 73vh;
+    width: 48%;
+    border: solid #FFFFFF;
+    display: inline-block;
+    
+    
+}
+
+.colors {
+    height: 73vh;
+    width: 48%;
+    border: solid #FFFFFF;
+    display: inline-block;
+    position: absolute;
+    z-index: -1
+}
+
+.layout, .colors{
+    margin-top: 20vh;
+}
+
+.fonts{
+    height: 73vh;
+    width: 48%;
+    border: solid #FFFFFF;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+}
+
+.textstyles{
+    height: 73vh;
+    width: 48%;
+    border: solid #FFFFFF;
+    display: inline-block;
+    position: absolute;
+    
+}
+
+.fonts, .textstyles{
+    margin-top: 102vh;
+    margin-bottom: 10vh;
+}
+
+/* Inside boxes */
+
+/*Structure*/
+
+.banner{
+    display: flex;
+    border: solid #212121;
+    margin: 0 2%;
+    height: 50px;
+    width: 94%;
+    background-color: #D1C4E9;
+    justify-content: center;
+    align-items: center;
+    color: #212121;
+}
+
+.section1{
+    display: inline-flex;
+    border: solid #212121;
+    background-color: #D1C4E9;
+    height: 150px;
+    width: 46.5%;
+    margin: 0 0 0 2%;
+    justify-content: center;
+    align-items: center;
+    color: #212121;
+}
+.section2{
+    display: inline-flex;
+    border: solid #212121;
+    background-color: #D1C4E9;
+    height: 150px;
+    width: 46.5%;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    color: #212121;
+}
+
+/* Colors*/
+table{
+    width: 100%;
+    background-color: #D1C4E9;
+    color:  #212121;
+    line-height: 50px;
+}
+
+th{
+    border: solid #673AB7;
+}
+
+td{
+    text-align: center;
+}
+.mcd{
+    background-color: #3b2079;
+}
+
+.mcm{
+    background-color: #673AB7;
+}
+
+.mcl{
+    background-color: #D1C4E9;
+    border: solid #212121 1px;
+}
+
+.ac{
+    background-color: #FFC107;
+}
+
+.tcd{
+    background-color:#212121;
+}
+
+.tcl{
+    background-color: #FFFFFF;
+}
+
+/* Fonts*/
+
+#merri{
+    font-family: Merriweather;
+    font-size: 25px;
+}
+
+#perm{
+    font-family: 'Permanent Marker';
+    font-size: 25px;
+}
+
+/* Text style */
+
+article{
+    margin-left: 10px;
+    text-align: center;
+}
